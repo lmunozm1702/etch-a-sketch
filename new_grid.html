@@ -8,16 +8,14 @@
 
     <script src="/assets/javascript/script.js"></script>
     <link rel="stylesheet" href="/assets/css/styles.css">
-
-    <title>Etch a Sketch</title>
+    <title>Document</title>
 </head>
 
-<body id="mainBody">
-
-    <script>
-        window.onload = grid(16, 16);
-    </script>
-
+<body>
+    <form name="newgrid" action="">
+        <input type="text" id="newgridvalue" value="New Grid Dimensions">
+        <input type="submit" value="Submit" onclick="setNewGrid();">
+    </form>
 </body>
 
 </html>
