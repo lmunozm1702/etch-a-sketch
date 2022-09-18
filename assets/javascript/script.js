@@ -27,5 +27,11 @@ function grid(x_axis, y_axis) {
 function newGrid() {
     var body = document.getElementById('mainBody');
     body.innerHTML = "";
-    var win = window.open('', 'window1', 'width=120, height=300, location=NO, scrollbars=NO');
+    var win = window.open('new_grid.html', 'window1', 'width=120, height=300, location=NO, scrollbars=NO');
+}
+
+function setNewGrid() {
+    //var newValue = self.document.getElementById("newgridvalue")[0].value;
+    alert("1");
+    //self.close();
 }

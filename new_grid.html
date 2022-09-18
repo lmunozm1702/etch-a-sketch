@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <form name="newgrid" action="">
-        <input type="text" id="newgridvalue" value="New Grid Dimensions">
-        <input type="submit" value="Submit" onclick="setNewGrid();">
+    <form name="newgrid">
+        <input type="number" id="newgridvalue" min="1" max="100" value="">
+        <input type="submit" value="Submit" onsubmit="setNewGrid();">
     </form>
 </body>
 
